@@ -17,12 +17,13 @@ fetch('movies.json')
         <div class="containerCards__card">
 
             <div class="containerCards__card__frente">
-                <img src=${filme.Images[2]} alt=""/>
+                <img src=${filme.Poster} alt=""/>
                 <span>${filme.Title}</span>
             </div>
 
             <div class="containerCards__card__verso">
                 <span id="tituloAno">Ano: </br></br>  ${filme.Year}</span>
+                </br></br></br>
                 <p id="tituloGenero">Gênero: </br></br>   ${filme.Genre}</p>
             </div>
 
