@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #0b0b0b;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 60px 0;
+}
+
+h1 {
+    color: #970000;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.ContainerCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cardFrente {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #970000;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.cardFrente .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #970000;
+}
+
+.cardFrente img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.cardFrente span {
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    color: #970000;
+    padding: 20px 0;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    background-color: rgb
