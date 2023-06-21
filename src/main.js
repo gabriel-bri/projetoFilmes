@@ -1,6 +1,7 @@
 import data from './data/movies/movies.json' assert { type: 'json' };
 
-console.log(data); 
+//console.log(data); 
+
 
 function displayMovies(data) {
     const movieContainer = document.getElementById('movie-container');
@@ -24,3 +25,4 @@ function displayMovies(data) {
 }
 
 displayMovies(data);
+console.log(data);
