@@ -1,6 +1,6 @@
 import data from './data/movies/movies.json' assert { type: 'json' };
 
-//console.log(data); 
+console.log(data); 
 
 
 function displayMovies(data) {
@@ -25,4 +25,4 @@ function displayMovies(data) {
 }
 
 displayMovies(data);
-console.log(data);
+//console.log(data);
