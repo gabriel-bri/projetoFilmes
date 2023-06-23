@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap') format('truetype'); 
+  }
+  
+  h1, h3, .containerCards__card__frente span, .containerCards__card__verso span, .containerCards__card__verso p {
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+  }
+  
+
+
 *{
    margin:0;
    padding: 0;
@@ -11,14 +22,14 @@ body {
     background-repeat:no-repeat;
     background-size:100%;
     background-position: center top;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
     font-size:1rem;
-    color:white;
+    color:rgb(222, 222, 231);
     background-attachment:fixed;
 }
 
 header {
-    background: #2B6593;
+    background: #173853;
     position: fixed;
     top:0;
     width: 100%;
@@ -117,7 +128,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
     text-align: center;
     text-shadow: 0 0 5px #222;
     padding: 20px;
@@ -142,5 +153,5 @@ main {
 footer {
     text-align: center;
     padding: 20px;
-    background: #2B6593;
+    background: #173853;
    }
